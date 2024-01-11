@@ -16,30 +16,30 @@
 (功能() {
     '使用严格';
 
-    让 VipPageData = {
+让VipPageData ={
         塔宾德克斯: 0
     }
      功能 vipPanelInit() {
-         让 vipPanel_=文档。getElementById(" vipPanel ")
+让vipPanel_=문서getElementById(“vipPanel”)
         如果 (vipPanel_) {
-vipPanel_。去除()
+vipPanel_ .去除()
         }
-        让 风格=文档。createElement(“风格”)
+        让 风格=문서createElement(“风格”)
 风格innerHTML =`
 
 #vipPanel {
-宽度:310px
-高度:500px
-箱形阴影:0 0 0 1px rgb(0 0 0 / 5%)，0 2px 4px 1px RGB(0 0 0/9%)；
-边框-左侧:1px纯色透明；
-            border-right: none;
-            border-top: 1px solid transparent;
-            border-bottom: 1px solid transparent;
-            background-color: #FFFFFF;
-            position: fixed;
-            left: 6px;
-            bottom: 6px;
-            z-index: 99999;
+宽度:310像素
+高度:500像素
+후면그림자입니다.:0 0 1 px RGB(0 0/5%)、0 2 px 4 px 1 px RGB(0 0/9%)；
+테두리상자-왼쪽의:1px터베이스투명한；
+右边界:无；
+border-top: 1px터베이스투명한；
+border-bottom: 1px터베이스투명한；
+배경색입니다.:# FFFFFF
+位置:固定；
+왼쪽:6px
+맨아래쪽:6px
+z지수:99999；
         }
         .panelHead {
             display: flex;
